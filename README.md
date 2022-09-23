@@ -6,9 +6,9 @@
 ```
 int var1=5;
 int var2=2;
-double var3=var1/var2; -> var1,var2는 int인 정수형으로 받아서 쓰고 있기에, 결과값이 실수가 나오면 정수형값까지만 갖고, 나머지는 짤린다.
-int var4=(int)(var3*var2);  ㄴ 그러므로 9번째 줄 코드를 double var3 = (double)var1/var2 로 바꿔야한다.
-System.out.println(var4)
+double var3=var1/var2; -> var1,var2는 int인 정수형으로 받아서 쓰고 있기에,
+int var4=(int)(var3*var2);  ㄴ 결과값이 실수가 나오면 정수형값까지만 갖고, 나머지는 짤린다.
+System.out.println(var4)       ㄴ 그러므로 9번째 줄 코드를 double var3 = (double)var1/var2 로 바꿔야한다.
 ```
 ```
 2. 다음 코드를 실행했을 때 출력 결과는 무엇입니까? (증감연산자에 대해 알아보세요!)
